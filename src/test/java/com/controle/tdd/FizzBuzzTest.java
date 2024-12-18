@@ -16,4 +16,9 @@ public class FizzBuzzTest {
     public void testFizzBuzz5() {
         assertEquals("Buzz", FizzBuzz.de(5));
     }
+    @Test
+    public void testFizzBuzz15() {
+        assertEquals("FizzBuzz", FizzBuzz.de(15));
+    }
+
 }
