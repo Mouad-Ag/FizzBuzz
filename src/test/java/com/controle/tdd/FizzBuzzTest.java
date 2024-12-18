@@ -20,5 +20,8 @@ public class FizzBuzzTest {
     public void testFizzBuzz15() {
         assertEquals("FizzBuzz", FizzBuzz.de(15));
     }
-
+    @Test
+    public void testFizzBuzzOtherNumbers() {
+        assertEquals("7", FizzBuzz.de(7));
+    }
 }
