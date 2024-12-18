@@ -8,4 +8,8 @@ public class FizzBuzzTest {
     public void testFizzBuzz1() {
         assertEquals("1", FizzBuzz.de(1));
     }
+    @Test
+    public void testFizzBuzz3() {
+        assertEquals("Fizz", FizzBuzz.de(3));
+    }
 }
